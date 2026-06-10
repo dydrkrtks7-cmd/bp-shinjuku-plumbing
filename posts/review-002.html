@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>아니, Superset 2.0 RC3 너 대체 왜 그랬어?! 내 디스크 I/O 300% 급증 비극의 서막... (feat. 속터지는 심정)</title>
+  <link rel="canonical" href="https://shinjuku-plumbing.pages.dev/posts/review-002.html">
+  <style>
+    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+    p { margin: 0 0 1em; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html">← 목록으로 돌아가기</a>
+  </header>
+  <main>
+    <h1>아니, Superset 2.0 RC3 너 대체 왜 그랬어?! 내 디스크 I/O 300% 급증 비극의 서막... (feat. 속터지는 심정)</h1>
+    <article>
+      <p><img src="../assets/interior__hero__t3b04-bh-kb-real-1__1344x768__cd66458dc0486ab8.png" alt="데이터베이스 쿼리 실행 계획 그래프와 함께 붉은색 경고 표시가 오버레이된 모습" loading="lazy" width="1344" height="768"></p>
+<p>아니, 솔직히 말해서... 저 진짜 잘 몰라서 그러는데, 세상에 이런 일이 다 있나요? 😡 저희 팀에서 데이터 시각화 도구로 Apache Superset을 쓰고 있거든요. 뭐, 다들 좋다니까 쓰는 건데, 갑자기 지난달에 2.0 정식 릴리즈 소식을 듣고 '와 드디어!' 하면서 부랴부랴 마이너 버전 업그레이드를 진행했지 뭐예요.</p>
+<p>근데 이게 웬걸? 업그레이드 직후부터 시스템 모니터링 대시보드에서 디스크 I/O 그래프가 미친 듯이 치솟는 거예요! 😱 평소보다 무려 300% 이상 폭증했다니까요? 처음엔 '뭐지? 누가 밤에 배치 돌렸나?' 했는데, 아무리 뒤져봐도 그런 건 없었고... 결국 범인은 Superset 업데이트였어요. PostgreSQL 실행계획을 `EXPLAIN ANALYZE`로 뜯어보니, 이전에는 보지 못했던 기괴하고 비효율적인 쿼리 플랜들이 난무하더라고요. 말 그대로 `PostgreSQL 실행계획 회귀`가 일어난 거죠.</p>
+<p>진짜 미쳐버리는 줄 알았어요. 하루 종일 삽질하고 있는데, 문득 예전에 스쳐 지나가던 커뮤니티 글이 생각나는 거예요. "Superset 2.0 RC3 빌드, PyPI에서 순삭 당함" 이라는 내용이었던 것 같은데... 잘 몰라서 그냥 흘려들었는데, 이게 뭔가 쎄한 느낌이 드는 거죠. 분명 2.0 정식이라고 깔았는데, 혹시 RC 버전에서 뭔가 문제가 있었던 건 아닐까?</p>
+<p>진짜 밤새도록 구글링하고 깃헙 이슈를 파고드는데, 세상에, 이게 다 이유가 있더라고요. 2.0 RC3가 PyPI에서 삭제된 표면적인 이유는 `Flask-AppBuilder`와 관련된 `werkzeug debugger RCE` 같은 보안 취약점 때문이었다고 알려져 있었어요. 하지만 제가 파고든 결과는 좀 더... 복잡했어요. 단순히 보안 구멍을 막는 수준이 아니었던 거죠.</p>
+<p>진짜 문제는 `SQLAlchemy dialect` 최적화 부분에서 심각한 버그가 있었다는 거예요. 특히 특정 데이터베이스 커넥션에서 쿼리 파싱 로직에 문제가 생기면서 비정상적인 `JOIN` 조건이나 `WHERE` 절이 생성되고, 이게 그대로 PostgreSQL로 넘어가면서 최악의 쿼리 플랜을 유발했던 거죠. 보안 취약점 패치 과정에서 이 `SQLAlchemy` 관련 코드 리팩토링이 제대로 마무리되지 않은 채 릴리즈 후보에 올랐다가, 심각한 성능 회귀 이슈가 터지면서 급하게 삭제된 게 아닐까... 하는 게 제 '뇌피셜'이자, 여러 정황상 가장 합리적인 추론이었어요. 이 때문에 `celery task queue 지연`까지 발생해서 대시보드 로딩도 엄청 느려지고요. 진짜, 마포 셔츠룸 추천정보 믿고 갔다가 낭패 본 기분이었달까? 겉으로만 번지르르한데 속은 엉망인...</p>
+<p>결국 저희는 2.0.1 버전으로 롤백해서 겨우 숨통을 틔웠어요. 진짜 이런 경험 할 때마다 '오픈소스는 역시 직접 뜯어봐야 해!' 하고 다짐하게 돼요. 다음부터는 마이너 버전이라도 배포 전에 진짜 심도 있게 테스트해야겠어요. 제 소중한 디스크 I/O... 😭 누가 보상해줄 건데요, 진짜.</p>
+    </article>
+  </main>
+</body>
+</html>

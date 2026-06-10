@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title><![CDATA[셔츠룸]]></title>
-  <link>https://shinjuku-plumbing.pages.dev</link>
+  <link>https://sinsa-room-zone.xyz</link>
   <description><![CDATA[셔츠룸 - 마포 셔츠룸 추천정보 관련 최신 소식 및 가이드]]></description>
   <language>ko</language>
-  <pubDate>Fri, 05 Jun 2026 10:37:55 GMT</pubDate>
-  <lastBuildDate>Fri, 05 Jun 2026 10:37:55 GMT</lastBuildDate>
-  <atom:link href="https://shinjuku-plumbing.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+  <pubDate>Wed, 10 Jun 2026 20:15:18 GMT</pubDate>
+  <lastBuildDate>Wed, 10 Jun 2026 20:15:18 GMT</lastBuildDate>
+  <atom:link href="https://sinsa-room-zone.xyz/feed.xml" rel="self" type="application/rss+xml" />
   
     <item>
+      <title><![CDATA[Cherry MX 스위치 생산 분량 및 로트 식별법 비교]]></title>
+      <link>https://sinsa-room-zone.xyz/posts/qa-001-tqtvv9.html</link>
+      <guid isPermaLink="true">https://sinsa-room-zone.xyz/posts/qa-001-tqtvv9.html</guid>
+      <description><![CDATA[### Cherry MX 스위치의 독일 공장과 중국 공장 생산분의 미세한 작동음 차이와 로트 식별법 아, 진짜... 하드웨어 마이너 결함을 알아보는 초보자가 된 것 같은 기분입니다. 오늘은 Cherry MX 스위치의 독일 공장과 중국 공장에서 생산되는 스위치들 사이에 ]]></description>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title><![CDATA[새벽 3시, 페이저 소리에 귓구멍 다 털릴 뻔한 썰 - Cloudflare 캐시 무효화 47분 딜레이의 진실]]></title>
-      <link>https://shinjuku-plumbing.pages.dev/posts/review-001.html</link>
-      <guid isPermaLink="true">https://shinjuku-plumbing.pages.dev/posts/review-001.html</guid>
+      <link>https://sinsa-room-zone.xyz/posts/review-001.html</link>
+      <guid isPermaLink="true">https://sinsa-room-zone.xyz/posts/review-001.html</guid>
       <description><![CDATA[으아... 새벽 3시였어요. 진짜, 꿈속에서 꿀잠 자고 있는데 갑자기 페이저가 미친 듯이 울리는 거예요. 심장이 쿵쾅거려서 바로 눈이 번쩍 뜨였죠. 뭔가 중대한 일이 터졌다는 직감? 이거 뭐, 온콜 엔지니어라면 다들 한 번쯤 겪어봤을 악몽 같은 상황이잖아요. 모니터 화]]></description>
       <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[아니, Superset 2.0 RC3 너 대체 왜 그랬어?! 내 디스크 I/O 300% 급증 비극의 서막... (feat. 속터지는 심정)]]></title>
-      <link>https://shinjuku-plumbing.pages.dev/posts/review-002.html</link>
-      <guid isPermaLink="true">https://shinjuku-plumbing.pages.dev/posts/review-002.html</guid>
+      <link>https://sinsa-room-zone.xyz/posts/review-002.html</link>
+      <guid isPermaLink="true">https://sinsa-room-zone.xyz/posts/review-002.html</guid>
       <description><![CDATA[아니, 솔직히 말해서... 저 진짜 잘 몰라서 그러는데, 세상에 이런 일이 다 있나요? 😡 저희 팀에서 데이터 시각화 도구로 Apache Superset을 쓰고 있거든요. 뭐, 다들 좋다니까 쓰는 건데, 갑자기 지난달에 2.0 정식 릴리즈 소식을 듣고 '와 드디어!']]></description>
       <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
     </item>

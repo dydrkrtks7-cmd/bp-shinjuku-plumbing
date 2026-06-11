@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마포 셔츠룸 추천 블로그 | 현지 리뷰 & 꿀팁</title>
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <meta name="description" content="내가 직접 경험한 마포 셔츠룸 추천 정보! 분위기, 서비스, 가격까지 솔직한 후기. 24시 상담 가능 ☎ 010-6279-0862">
+    <meta name="keywords" content="마포 셔츠룸,마포 셔츠룸 추천,셔츠룸 후기,마포 유흥,마포 셔츠룸 가격">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sinsa-room-zone.xyz/blog.html">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sinsa-room-zone.xyz/blog.html">
+    <meta property="og:title" content="마포 셔츠룸 추천 블로그 | 현지 리뷰 & 꿀팁">
+    <meta property="og:description" content="마포 셔츠룸 직접 가보고 쓴 솔직 후기. 분위기 좋고 서비스 끝내주는 곳 추천합니다!">
+    <meta name="twitter:card" content="summary_large_image">
+    <style>
+        /* RESET */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        ul, ol {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        img {
+            max-width: 100%;
+            display: block;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        /* BRUTALIST CORE */
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #0d0d0d;
+            color: #e0e0e0;
+            line-height: 1.6;
+            border-left: 8px solid #ff007f;
+            border-right: 8px solid #00f0ff;
+            min-height: 100vh;
+        }
+        /* NEON-VOID */
+        :root {
+            --neon-pink: #ff007f;
+            --neon-cyan: #00f0ff;
+            --neon-purple: #b000ff;
+            --neon-yellow: #f0ff00;
+            --dark-bg: #0d0d0d;
+            --card-bg: #1a1a1a;
+            --accent-border: 3px solid var(--neon-cyan);
+        }
+        /* TYPOGRAPHY */
+        h1, h2, h3, h4 {
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 3rem;
+            border-bottom: 4px solid var(--neon-pink);
+            display: inline-block;
+            padding-bottom: 0.5rem;
+        }
+        h2 {
+            font-size: 2.2rem;
+            border-left: 6px solid var(--neon-cyan);
+            padding-left: 1rem;
+        }
+        h3 {
+            font-size: 1.6rem;
+            color: var(--neon-yellow);
+        }
+        p, li, blockquote {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+        /* HEADER & NAV */
+        header {
+            background: var(--dark-bg);
+            padding: 1.5rem 2rem;
+            border-bottom: 4px solid var(--neon-pink);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .header-in {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+        .logo a {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--neon-cyan);
+            text-shadow: 0 0 10px var(--neon-cyan);
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+        }
+        nav {
+            display: flex;
+            gap: 2rem;
+        }
+        nav a {
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            color: #e0e0e0;
+            transition: color 0.3s, text-shadow 0.3s;
+            padding: 0.5rem 0;
+            border-bottom: 2px solid transparent;
+        }
+        nav a:hover {
+            color: var(--neon-pink);
+            text-shadow: 0 0 8px var(--neon-pink);
+            border-bottom-color: var(--neon-pink);
+        }
+        .tel-link {
+            display: inline-block;
+            background: var(--neon-pink);
+            color: #000;
+            font-weight: bold;
+            padding: 0.5rem 1.5rem;
+            border-radius: 0;
+            font-size: 1.3rem;
+            border: 2px solid #fff;
+            transition: background 0.3s, transform 0.2s;
+            text-transform: uppercase;
+        }
+        .tel-link:hover {
+            background: var(--neon-cyan);
+            transform: scale(1.05);
+        }
+        /* HAMBURGER MENU (모바일) */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 5px;
+        }
+        .hamburger span {
+            display: block;
+            width: 30px;
+            height: 4px;
+            background: var(--neon-cyan);
+            border-radius: 0;
+            transition: all 0.3s;
+        }
+        @media (max-width: 768px) {
+            nav {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: #1a1a1a;
+                border-bottom: 4px solid var(--neon-pink);
+                padding: 1rem 2rem;
+                gap: 1rem;
+            }
+            nav.active {
+                display: flex;
+            }
+            .hamburger {
+                display: flex;
+            }
+            header {
+                padding: 1rem;
+                position: relative;
+            }
+            .logo a {
+                font-size: 1.4rem;
+            }
+            .tel-link {
+                font-size: 1rem;
+                padding: 0.4rem 1rem;
+            }
+        }
+        /* MAIN CONTENT */
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        .blog-post {
+            background: var(--card-bg);
+            border: 3px solid var(--neon-cyan);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        .blog-post .meta {
+            font-size: 0.9rem;
+            color: #aaa;
+            margin-bottom: 1.5rem;
+            border-bottom: 1px dashed #333;
+            padding-bottom: 0.5rem;
+        }
+        .blog-post h2 {
+            margin-top: 2rem;
+        }
+        .blog-post h3 {
+            margin-top: 1.5rem;
+        }
+        .blog-post ul, .blog-post ol {
+            margin-left: 2rem;
+            list-style: square;
+            color: var(--neon-cyan);
+        }
+        .blog-post li {
+            margin-bottom: 0.5rem;
+        }
+        .cta-box {
+            background: #222;
+            border: 3px solid var(--neon-yellow);
+            padding: 2rem;
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .cta-box p {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--neon-yellow);
+        }
+        .cta-box .tel-link {
+            font-size: 2rem;
+            padding: 0.8rem 2.5rem;
+            margin-top: 1rem;
+            display: inline-block;
+        }
+        /* FAQ */
+        .faq {
+            margin-top: 3rem;
+        }
+        .faq-item {
+            margin-bottom: 1.5rem;
+            border-left: 4px solid var(--neon-purple);
+            padding-left: 1rem;
+        }
+        .faq-item h4 {
+            font-size: 1.3rem;
+            color: var(--neon-purple);
+            margin-bottom: 0.5rem;
+        }
+        .faq-item p {
+            margin-bottom: 0;
+        }
+        /* FOOTER */
+        footer {
+            background: #111;
+            border-top: 4px solid var(--neon-pink);
+            padding: 2rem;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        footer a {
+            color: var(--neon-cyan);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-in">
+            <div class="logo"><a href="/">마포셔츠룸</a></div>
+            <button class="hamburger" aria-label="메뉴 열기" onclick="document.querySelector('nav').classList.toggle('active')">
+                <span></span><span></span><span></span>
+            </button>
+            <nav>
+                <a href="/">홈</a>
+                <a href="/blog.html">블로그</a>
+                <a href="/about.html">소개</a>
+                <a href="/contact.html">문의</a>
+            </nav>
+            <a href="tel:01062790862" class="tel-link">📞 010-6279-0862</a>
+        </div>
+    </header>
+
+    <main>
+        <article class="blog-post">
+            <h1>마포 셔츠룸 추천! 내가 직접 가본 셔츠룸 후기 &amp; 꿀팁</h1>
+            <div class="meta">
+                <span>작성일: 2025-03-15</span> | 
+                <span>조회수: 1,284</span> | 
+                <span>카테고리: 마포 셔츠룸 추천</span>
+            </div>
+
+            <p>안녕하세요, 형님들! 저는 마포에서 유흥 좀 즐기는 평범한 직장인입니다. 요즘 마포 셔츠룸 핫하다는 소문에 직접 발로 뛰어보고 왔어요. 원래는 선릉쪽만 가다가 친구 추천으로 마포 셔츠룸 몇 군데 다녀봤는데, 생각보다 퀄리티가 끝내주더라고요. 오늘은 제가 실제로 방문하고 느낀 점과 꿀팁을 아낌없이 풀어볼게요.</p>
+
+            <h2>왜 마포 셔츠룸인가?</h2>
+            <p>사실 강남이나 선릉도 좋지만, 가격 부담이 만만치 않잖아요? 마포 셔츠룸은 상대적으로 합리적인 가격에 서비스나 분위기는 전혀 꿇리지 않습니다. 특히 홍대 인근이라 젊은 감각의 인테리어와 친근한 분위기가 매력적이에요. 몇 군데 돌아다닌 결과, 제 기준으로 최고의 마포 셔츠룸 추천 리스트를 공유합니다.</p>
+
+            <h2>직접 가본 마포 셔츠룸 TOP3</h2>
+            <h3>1. 더블에이 마포점</h3>
+            <p>가장 먼저 추천하는 곳. 룸이 넓고 사운드 시스템이 진짜 좋아요. 사장님이 엄청 친절하시고, 직원분들도 스킨십 강요 없이 자연스럽게 케어해줍니다. 가격은 1시간에 15만원 정도. 아가씨들이 엄청 예쁘고 센스도 좋아서 마치 여친 만나는 기분이에요. 야간에는 20% 할인 이벤트도 하더라고요.</p>
+
+            <h3>2. 레이크 셔츠룸</h3>
+            <p>여기는 조용하고 프라이빗한 분위기를 원할 때 딱이에요. 홍대입구역에서 도보 3분 거리. 내부가 정말 깔끔하고, 시설이 완전 새 건물이라 쾌적합니다. 서비스도 프로페셔널하고, 특히 마인드가 좋은 언니들이 많아요. 저는 여기를 첫 방문 장소로 추천합니다. 가격은 1시간 18만원.</p>
+
+            <h3>3. VVIP 마포</h3>
+            <p>이름처럼 완전 럭셔리한 곳. 마포 셔츠룸 중에서도 가격대가 좀 있지만 그만큼 퀄리티가 장난 아닙니다. 샴페인도 무료로 주고, 룸이 완전 궁전 같아요. 접대 자리나 특별한 날 가기 좋습니다. 1시간 25만원인데 이 가격에 이런 수준이면 진짜 혜자라고 생각해요.</p>
+
+            <h2>마포 셔츠룸 초보자를 위한 꿀팁</h2>
+            <ul>
+                <li><strong>예약은 필수!</strong> 주말에는 웨이팅이 엄청 길어요. 전화 한 통이면 편하게 입장 가능합니다.</li>
+                <li><strong>첫 방문이면 1시간 코스</strong>로 시작하세요. 부담 없이 분위기 보고 재방문 결정해도 좋아요.</li>
+                <li><strong>가격은 미리 확인</strong>하세요. 업소마다 음료 정책이 다르니까 전화로 물어보는 게 좋습니다.</li>
+                <li><strong>친구와 함께 가면 더 재밌어요.</strong> 여럿이 갈수록 각자 취향에 맞는 분을 배정해줍니다.</li>
+                <li><strong>24시 전화 상담 가능</strong>하니까 궁금한 건 언제든 물어보세요. 번호는 아래 있어요!</li>
+            </ul>
+
+            <div class="cta-box">
+                <p>🔥 지금 바로 예약하세요! 24시 상담 가능 🔥</p>
+                <a href="tel:01062790862" class="tel-link">📞 010-6279-0862</a>
+            </div>
+
+            <h2>실제 후기: 나는 이렇게 즐겼다</h2>
+            <
+</body>
+</html>

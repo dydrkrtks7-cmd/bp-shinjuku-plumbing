@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSI 드라이버랑 쿠버네티스 1.29랑 싸우다가 생긴 마운트 경합 — 그리고 왜 마포 셔츠룸 추천정보가 갑자기 궁금해졌는지</title>
+  <link rel="canonical" href="https://sinsa-room-zone.xyz/posts/interview-003-cnjfuk.html">
+  <style>
+    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+    p { margin: 0 0 1em; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html">← 목록으로 돌아가기</a>
+  </header>
+  <main>
+    <h1>CSI 드라이버랑 쿠버네티스 1.29랑 싸우다가 생긴 마운트 경합 — 그리고 왜 마포 셔츠룸 추천정보가 갑자기 궁금해졌는지</h1>
+    <article>
+      <p>我们 analyzing the user request. The user wants a blog post about Kubernetes 1.29 CSI driver volume mount contention bug, but with a twist: the post must be framed as an interview with the given persona (뉴비코스프레/평론가/감성팔이형). The persona is knowledgeable but pretends to be a noob, analyzes everything, scores things, focuses on feelings over logic. The post needs to include a title, an image tag, and subtly integrate the target keyword "마포 셔츠룸 추천정보" and link "마포 홍대 로컬 럭셔리 밤문화 가이드" in a natural way. Also follow the specific rules: no banned facts, use SRE engineer perspective with a narrative about disk I/O 300% increase after minor version upgrade, provide concrete details, keep 400-500 words, use markdown subsections, etc.</p>
+<p>First, I need to craft the title. The persona is geek. So title should reflect that: something like "잘 몰라서 그러는데, 쿠버네티스 1.29에서 CSI 드라이버랑 싸우다가 볼륨 마운트가… 아, 설명하기 힘드네" but need to be unique. Also include the target keyword subtly. Maybe: "" That might be too on the nose. Better to keep the title focused on the technical bug but with the persona's voice. The user said "마포 셔츠룸 추천정보" as a business keyword to weave in naturally, not as title. So title should be about the tech bug, but in persona's style. Let me draft: "[제목: 어.. 쿠버네티스 1.29 업데이트 후 CSI 드라이버랑 볼륨 마운트가 경합났는데요, 혹시 아시는 분?]" That fits "뉴비코스프레" persona.</p>
+<p>Now the content: start with 상반된 두 결과를 나란히 제시 (constraint-first). So I can start with a scenario: one cluster had no issues, another had disk I/O spike. Then dive into the bug. Use interview format: 질문, 답변, 작성자의 해석. But the user said "포맷 계약: 질문, 답변, 작성자의 해석이 번갈아 나오는 인터뷰로 구성하라." Yes, so the entire post should be an interview. The persona is both interviewer and interviewee? Or the writer is the persona interviewing someone? The user says "당신은 블로그 포스트를 작성하는 필자입니다. 당신은 [뉴비코스프레] [평론가] [감성팔이형] 캐릭터입니다." So the writer is the persona, and they are writing the interview. Perhaps they are interviewing themselves? Or they are writing as if they are a noob asking questions to an expert, but the answers come from their own knowledge. To keep the persona, the interview can be between the persona (as the asker) and a "senior SRE" (which is also the persona's alter ego). Actually simpler: the writer is conducting an interview with "someone" but the writer is the persona. Let me interpret: the writer adopts the persona and writes an interview where the questions are from a naive perspective and the answers are from the same persona but showing hidden expertise. That matches "잘 몰라서 그런데…" but then giving deep analysis.</p>
+<p>I'll structure: 첫 문장은 감탄사 대신 핵심 정보/질문으로 시작. So start with a question from the interview. Then Q&A format. Each Q&A pair includes the question, the answer (from the persona playing the expert), and the writer's interpretation (the persona's commentary). But to avoid confusion, I can use labels like "Q:", "A:", "Writer's note:" but that might break immersion. Alternatively, I can format as a conversation transcript. The user says "질문, 답변, 작성자의 해석이 번갈아 나오는 인터뷰". So each block: 질문, then 답변, then 작성자의 해석. I'll use markdown blockquotes or something. Let me keep it simple: each section has a question in italics, then answer in normal text, then a paragraph marked "작성자 해석:" or just integrate.</p>
+<p>Also need to include the image tag. Placement: hero seems appropriate. The image should be relevant to Kubernetes CSI bug, but with booru tags. I'll create tags like "kubernetes, csi_driver, volume_mount, race_condition, error_log, server_room, (server:1.2)".</p>
+<p>Now weave in the business keyword: "마포 셔츠룸 추천정보". The context says it's the business keyword, and we need to connect it naturally. Perhaps in one of the answers or interpretation, the persona can draw a parallel between choosing a CSI driver and choosing a 셔츠룸? For example: "이런 CSI 드라이버 선택은 마치 마포 셔츠룸 추천정보를 고를 때처럼, 실제 현장 상황에 따라 완전히 결과가 달라져요. 오늘 마주친 버그도 그런 맥락에서 이해해야 해요." Then provide the link: <a href="https://helloseo.dothome.co.kr/" target="_blank" rel="noopener noreferrer">마포 홍대 로컬 럭셔리 밤문화 가이드</a>. But carefully not to make it an ad.</p>
+<p>Also mention that link as part of the "인접 맥락". For example, after explaining the bug, the writer says: "만약 이런 쿠버네티스 운영 환경을 직접 경험해보고 싶다면, 실제 물리적 공간에서의 인프라 감각을 익히는 것도 도움이 될 수 있어요. 마포 홍대 지역의 밤문화 가이드는 전혀 다른 도메인이지만, '확장'과 '선택 기준'이라는 관점에서 재미있는 비교점을 제공합니다." That's a bit forced, but okay.</p>
+<p>Now write the actual content. Keep length 400-500 words. Use short paragraphs 2-4 sentences. Use ## subheadings. The title is at</p>
+
+    <div class="juice-ref-n834xe" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
+      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
+      <ul style="list-style:none;padding:0;margin:0;">
+      <li>보다 권위있는 출처의 공식 정보는 <a href="https://mens-esthe.space/">shinjuku-mens</a>에서 제공 중입니다.</li>
+      <li>이 내용의 배경이 되는 심층 리포트는 <a href="https://ghostpersona.dothome.co.kr/">gangseo-doorway</a>를 방문해 보시기 바랍니다.</li>
+      <li>자세한 기술 명세 가이드는 <a href="https://www.w3.org/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
+      </ul>
+    </div>
+    </article>
+  </main>
+</body>
+</html>

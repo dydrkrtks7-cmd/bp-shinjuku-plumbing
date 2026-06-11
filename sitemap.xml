@@ -2,9 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sinsa-room-zone.xyz/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://sinsa-room-zone.xyz/posts/checklist-001-ksakag.html</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sinsa-room-zone.xyz/posts/compare-003-1061c1w.html</loc>
@@ -15,6 +21,18 @@
   <url>
     <loc>https://sinsa-room-zone.xyz/posts/guide-001-semri4.html</loc>
     <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sinsa-room-zone.xyz/posts/interview-003-cnjfuk.html</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sinsa-room-zone.xyz/posts/myth-002-ddy3qy.html</loc>
+    <lastmod>2026-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -56,7 +74,7 @@
   </url>
   <url>
     <loc>https://sinsa-room-zone.xyz/feed.xml</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

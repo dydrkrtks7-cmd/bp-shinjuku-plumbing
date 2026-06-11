@@ -5,10 +5,17 @@
   <link>https://sinsa-room-zone.xyz</link>
   <description><![CDATA[셔츠룸 - 마포 셔츠룸 추천정보 관련 최신 소식 및 가이드]]></description>
   <language>ko</language>
-  <pubDate>Wed, 10 Jun 2026 23:05:59 GMT</pubDate>
-  <lastBuildDate>Wed, 10 Jun 2026 23:05:59 GMT</lastBuildDate>
+  <pubDate>Thu, 11 Jun 2026 00:58:21 GMT</pubDate>
+  <lastBuildDate>Thu, 11 Jun 2026 00:58:21 GMT</lastBuildDate>
   <atom:link href="https://sinsa-room-zone.xyz/feed.xml" rel="self" type="application/rss+xml" />
   
+    <item>
+      <title><![CDATA[새벽 3시 페이저가 울렸다: AWS Lightsail × 특정 AMI 조합의 커널 패닉 역추적]]></title>
+      <link>https://sinsa-room-zone.xyz/posts/checklist-001-ksakag.html</link>
+      <guid isPermaLink="true">https://sinsa-room-zone.xyz/posts/checklist-001-ksakag.html</guid>
+      <description><![CDATA[새벽 3시 17분. 내 폰이 미친 듯이 진동했다. PagerDuty 알림, Lightsail 인스턴스 하나가 응답 불능. 맙소사, 또야? ssh로 붙어보니 시스템 로그가 이상했다. CPU 크레딧 잔여 3분 시점에서 갑자기 커널 패닉 - 일반적인 크레딧 고갈로는 재부팅 ]]></description>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title><![CDATA[...]]></title>
       <link>https://sinsa-room-zone.xyz/posts/compare-003-1061c1w.html</link>
@@ -22,6 +29,20 @@
       <guid isPermaLink="true">https://sinsa-room-zone.xyz/posts/guide-001-semri4.html</guid>
       <description><![CDATA[우리는 주제가 "Cherry MX 스위치의 독일 공장과 중국 공장 생산분의 미세한 작동음 차이와 로트 식별법"이고, 맥락은 하드웨어·가젯 마이너 결함·개조 / 기계식 키보드 스위치입니다. 또한 관점 강제로 "중고 하드웨어 리퍼비셔"의 시점에서 "일본 내수용과 글로벌 버]]></description>
       <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[CSI 드라이버랑 쿠버네티스 1.29랑 싸우다가 생긴 마운트 경합 — 그리고 왜 마포 셔츠룸 추천정보가 갑자기 궁금해졌는지]]></title>
+      <link>https://sinsa-room-zone.xyz/posts/interview-003-cnjfuk.html</link>
+      <guid isPermaLink="true">https://sinsa-room-zone.xyz/posts/interview-003-cnjfuk.html</guid>
+      <description><![CDATA[我们 analyzing the user request. The user wants a blog post about Kubernetes 1.29 CSI driver volume mount contention bug, but with a twist: the post mus]]></description>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[...]]></title>
+      <link>https://sinsa-room-zone.xyz/posts/myth-002-ddy3qy.html</link>
+      <guid isPermaLink="true">https://sinsa-room-zone.xyz/posts/myth-002-ddy3qy.html</guid>
+      <description><![CDATA[我们被要求写一篇关于Llama 3.1 8B模型RoPE theta参数从50万提升到5000万时perplexity变化和注意力模式变化的博文。但需要结合“마포 셔츠룸 추천정보”和“구글 틈새 키워드 트래픽 외환 거래 전략”这些关键词，且不能直接广告。同时要扮演“뉴비코스프레”+“평론가”+]]></description>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Cherry MX 스위치 생산 분량 및 로트 식별법 비교]]></title>

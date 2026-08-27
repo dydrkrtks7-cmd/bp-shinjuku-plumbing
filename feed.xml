@@ -9,13 +9,7 @@
   <lastBuildDate>Thu, 11 Jun 2026 00:58:21 GMT</lastBuildDate>
   <atom:link href="https://sinsa-room-zone.xyz/feed.xml" rel="self" type="application/rss+xml" />
   
-    <item>
-      <title><![CDATA[새벽 3시 페이저가 울렸다: AWS Lightsail × 특정 AMI 조합의 커널 패닉 역추적]]></title>
-      <link>https://blog.sinsa-room-zone.xyz/posts/checklist-001-ksakag.html</link>
-      <guid isPermaLink="true">https://sinsa-room-zone.xyz/posts/checklist-001-ksakag.html</guid>
-      <description><![CDATA[새벽 3시 17분. 내 폰이 미친 듯이 진동했다. PagerDuty 알림, Lightsail 인스턴스 하나가 응답 불능. 맙소사, 또야? ssh로 붙어보니 시스템 로그가 이상했다. CPU 크레딧 잔여 3분 시점에서 갑자기 커널 패닉 - 일반적인 크레딧 고갈로는 재부팅 ]]></description>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
+    
     <item>
       <title><![CDATA[...]]></title>
       <link>https://blog.sinsa-room-zone.xyz/posts/compare-003-1061c1w.html</link>
@@ -23,13 +17,7 @@
       <description><![CDATA[우리는 이 블로그 포스트를 작성해야 합니다. 주제는 "Llama 3.1 8B의 RoPE theta를 50만에서 5000만으로 올렸을 때 Perplexity 변화와 특정 토큰 구간에서의 어텐션 패턴"입니다. 컨텍스트는 "LLM 미세 동작/버그 / Attention sin]]></description>
       <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
     </item>
-    <item>
-      <title><![CDATA[셔츠룸 해결 방법 총정리 — 전문가가 알려주는 5가지 팁]]></title>
-      <link>https://blog.sinsa-room-zone.xyz/posts/guide-001-semri4.html</link>
-      <guid isPermaLink="true">https://sinsa-room-zone.xyz/posts/guide-001-semri4.html</guid>
-      <description><![CDATA[우리는 주제가 "Cherry MX 스위치의 독일 공장과 중국 공장 생산분의 미세한 작동음 차이와 로트 식별법"이고, 맥락은 하드웨어·가젯 마이너 결함·개조 / 기계식 키보드 스위치입니다. 또한 관점 강제로 "중고 하드웨어 리퍼비셔"의 시점에서 "일본 내수용과 글로벌 버]]></description>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
+    
     <item>
       <title><![CDATA[CSI 드라이버랑 쿠버네티스 1.29랑 싸우다가 생긴 마운트 경합 — 그리고 왜 마포 셔츠룸 추천정보가 갑자기 궁금해졌는지]]></title>
       <link>https://blog.sinsa-room-zone.xyz/posts/interview-003-cnjfuk.html</link>
@@ -44,47 +32,11 @@
       <description><![CDATA[我们被要求写一篇关于Llama 3.1 8B模型RoPE theta参数从50万提升到5000万时perplexity变化和注意力模式变化的博文。但需要结合“마포 셔츠룸 추천정보”和“구글 틈새 키워드 트래픽 외환 거래 전략”这些关键词，且不能直接广告。同时要扮演“뉴비코스프레”+“평론가”+]]></description>
       <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
     </item>
-    <item>
-      <title><![CDATA[Cherry MX 스위치 생산 분량 및 로트 식별법 비교]]></title>
-      <link>https://blog.sinsa-room-zone.xyz/posts/qa-001-tqtvv9.html</link>
-      <guid isPermaLink="true">https://sinsa-room-zone.xyz/posts/qa-001-tqtvv9.html</guid>
-      <description><![CDATA[### Cherry MX 스위치의 독일 공장과 중국 공장 생산분의 미세한 작동음 차이와 로트 식별법 아, 진짜... 하드웨어 마이너 결함을 알아보는 초보자가 된 것 같은 기분입니다. 오늘은 Cherry MX 스위치의 독일 공장과 중국 공장에서 생산되는 스위치들 사이에 ]]></description>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[마포 셔츠룸 추천정보 처음 알아볼 때 실제로 많이 묻는 질문 5가지]]></title>
-      <link>https://blog.sinsa-room-zone.xyz/posts/qa-002-j6urfc.html</link>
-      <guid isPermaLink="true">https://sinsa-room-zone.xyz/posts/qa-002-j6urfc.html</guid>
-      <description><![CDATA[우리는 Apache Superset 2.0 RC3가 PyPI에서 삭제된 실제 이유에 대한 보안 연구원 관점의 서사를 작성해야 합니다. 주제는 "Apache Superset 2.0 릴리스 전 PyPI에서 삭제된 RC3 빌드의 취약점과 삭제된 실제 이유"이며, 맥락에는 R]]></description>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[1.29 업그레이드 후 디스크가 멈췄다 — 마포 셔츠룸 추천 정보와 CSI 버그의 공통점]]></title>
-      <link>https://blog.sinsa-room-zone.xyz/posts/review-001-1vgbh94.html</link>
-      <guid isPermaLink="true">https://sinsa-room-zone.xyz/posts/review-001-1vgbh94.html</guid>
-      <description><![CDATA["너희도 노드 하나에 PVC 200개 마포 단체 회식용 대형 룸 노래방 가격 정보]]></description>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[마포 셔츠룸 추천정보: 성공적인 모임을 위한 전략적 기준]]></title>
-      <link>https://blog.sinsa-room-zone.xyz/posts/review-001-1xmv8mj.html</link>
-      <guid isPermaLink="true">https://sinsa-room-zone.xyz/posts/review-001-1xmv8mj.html</guid>
-      <description><![CDATA[마포 지역은 비즈니스 유동 인구가 많고 저녁 시간대의 밀도가 매우 높은 지역입니다. 단순히 근처에 있다는 이유로 무작정 방문하는 것은 리스크가 큽니다. 자신의 모임 성격에 맞는 정확한 업장 정보를 파악하고, 예약 시스템의 유연성을 확인하는 것이 첫 번째 단계입니다.]]></description>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[새벽 3시, 페이저 소리에 귓구멍 다 털릴 뻔한 썰 - Cloudflare 캐시 무효화 47분 딜레이의 진실]]></title>
-      <link>https://blog.sinsa-room-zone.xyz/posts/review-001.html</link>
-      <guid isPermaLink="true">https://sinsa-room-zone.xyz/posts/review-001.html</guid>
-      <description><![CDATA[으아... 새벽 3시였어요. 진짜, 꿈속에서 꿀잠 자고 있는데 갑자기 페이저가 미친 듯이 울리는 거예요. 심장이 쿵쾅거려서 바로 눈이 번쩍 뜨였죠. 뭔가 중대한 일이 터졌다는 직감? 이거 뭐, 온콜 엔지니어라면 다들 한 번쯤 겪어봤을 악몽 같은 상황이잖아요. 모니터 화]]></description>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[아니, Superset 2.0 RC3 너 대체 왜 그랬어?! 내 디스크 I/O 300% 급증 비극의 서막... (feat. 속터지는 심정)]]></title>
-      <link>https://blog.sinsa-room-zone.xyz/posts/review-002.html</link>
-      <guid isPermaLink="true">https://sinsa-room-zone.xyz/posts/review-002.html</guid>
-      <description><![CDATA[아니, 솔직히 말해서... 저 진짜 잘 몰라서 그러는데, 세상에 이런 일이 다 있나요? 😡 저희 팀에서 데이터 시각화 도구로 Apache Superset을 쓰고 있거든요. 뭐, 다들 좋다니까 쓰는 건데, 갑자기 지난달에 2.0 정식 릴리즈 소식을 듣고 '와 드디어!']]></description>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
+    
+    
+    
+    
+    
+    
 </channel>
 </rss>
